@@ -41,7 +41,7 @@ La idea es tener una base minimalista y escalable para crear páginas rápidas y
 4. Inicia el servidor de desarrollo::
 
 ```bash
-  npm dev
+  npm run dev
 ```
 
 ## 📂 Estructura del proyecto
