@@ -1,46 +1,54 @@
-# Astro Starter Kit: Basics
+# 🚀 Landing Page Template - Zentrix Innovate
 
-```sh
-npm create astro@latest -- --template basics
+Este proyecto es un **template de Landing Page responsive** creado con **Astro + TailwindCSS**.  
+La idea es tener una base minimalista y escalable para crear páginas rápidas y modernas.
+
+## 📌 Características
+
+- 🌐 Diseño **First Mobile** (responsive desde móviles hasta escritorio).
+- 🎨 Estilo **minimalista** con TailwindCSS.
+- ⚡ Secciones listas para personalizar:
+  - Hero (encabezado principal con call-to-action).
+  - Sección de problema/solución.
+  - Sección de beneficios con tarjetas.
+  - Sección de llamado a la acción (CTA).
+
+## 🛠️ Tecnologías usadas
+
+- [Astro](https://astro.build/) - Framework rápido y moderno.
+- [TailwindCSS](https://tailwindcss.com/) - Estilos utilitarios para diseño responsive.
+
+## 🚀 Instalación y ejecución
+
+1. Clona este repositorio:
+
+```bash
+ git clone https://github.com/TU-USUARIO/landingpage-zentrixinnovate.git
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+2. Entra en el directorio:
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+```bash
+  cd landingpage-zentrixinnovate
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+3. Instala las dependencias::
 
-## 🧞 Commands
+```bash
+  npm install
+```
 
-All commands are run from the root of the project, from a terminal:
+4. Inicia el servidor de desarrollo::
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+```bash
+  npm dev
+```
 
-## 👀 Want to learn more?
+## 📂 Estructura del proyecto
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+```bash
+/src
+ ├── layouts/Layout.astro   # Layout principal (nav + footer)
+ ├── pages/index.astro      # Página principal (secciones de la landing)
+ └── styles/global.css      # Estilos globales
+```
